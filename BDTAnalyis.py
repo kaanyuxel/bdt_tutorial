@@ -54,18 +54,18 @@ factory.BookMethod(dataloader,
 				   ROOT.TMVA.Types.kBDT, 
 				   "BDT", 
 				   ":".join([
-                           		"!H",
-                           		"!V",
-                           		"NTrees=850",
-                           		"MinNodeSize=2.5%",
-                           		"MaxDepth=3",
-                           		"BoostType=AdaBoost",
-                           		"AdaBoostBeta=0.5",
-                           		"UseBaggedBoost",
-                           		"BaggedSampleFraction=0.5",
-                           		"SeparationType=GiniIndex",
-                           		"nCuts=20",
-                            ]))	
+                      "!H",
+                      "!V",
+                      "NTrees=850",
+                      "MinNodeSize=2.5%",
+                      "MaxDepth=3",
+                      "BoostType=AdaBoost",
+                      "AdaBoostBeta=0.5",
+                      "UseBaggedBoost",
+                      "BaggedSampleFraction=0.5",
+                      "SeparationType=GiniIndex",
+                      "nCuts=20",
+                    ]))	
 #Factory will analyze them with respect to the definitions!!
 factory.TrainAllMethods() #With the half of data, it will learn 
 factory.TestAllMethods() #With the other half, it will test
