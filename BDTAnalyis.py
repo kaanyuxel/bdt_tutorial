@@ -74,4 +74,4 @@ fout.Close() # Output for user !!!
 
 ROOT.TMVA.TMVAGui(args.output) # Gui for user to see what is happened in the analysis!!
 
-input("Press any key to exit!")
+raw_input("Press any key to exit!")
